@@ -140,11 +140,8 @@ export default class ResumableUploader extends Uploader {
   }
 
   private processRange(response: Response) {
-    return response.headers
-      .get('Range')!
-      .split('=')[1]
-      .split('-')
+    return (response.headers.get('Range') || '')?.split('=')?.[1]?.split('-')
       .map(Number)
-      .reduce((previousValue, currentValue) => currentValue - previousValue + 1)
+      .reduce((previousValue, currentValue) => currentValue - previousValue + 1) || 0;
   }
 }
