@@ -1,5 +1,5 @@
 import Uploader from './Uploader'
-import Fetcher, { FetchResultType } from '../Fetcher'
+import Fetcher, { type FetchResultType } from '../Fetcher'
 import FilesApi from '../../files/FilesApi'
 
 export default class MediaUploader extends Uploader {
