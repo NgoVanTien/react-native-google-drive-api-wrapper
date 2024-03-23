@@ -1,5 +1,5 @@
-import Uploader, { DataType } from './Uploader'
-import Fetcher, { FetchResultType } from '../Fetcher'
+import Uploader, { type DataType } from './Uploader'
+import Fetcher, { type FetchResultType } from '../Fetcher'
 import FilesApi from '../../files/FilesApi'
 import HttpError from '../../../HttpError'
 import MimeTypes from '../../../MimeTypes'
