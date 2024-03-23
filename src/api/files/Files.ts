@@ -1,5 +1,5 @@
 import FilesApi from './FilesApi'
-import Fetcher, { FetchResponseType, fetch } from '../aux/Fetcher'
+import Fetcher, { type FetchResponseType, fetch } from '../aux/Fetcher'
 import MediaUploader from '../aux/uploaders/MediaUploader'
 import MetadataOnlyUploader from '../aux/uploaders/MetadataOnlyUploader'
 import MultipartUploader from '../aux/uploaders/MultipartUploader'
