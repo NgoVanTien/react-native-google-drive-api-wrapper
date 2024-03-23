@@ -1,5 +1,5 @@
 import Uploader from './Uploader'
-import { FetchResultType } from '../Fetcher'
+import { type FetchResultType } from '../Fetcher'
 import MimeTypes from '../../../MimeTypes'
 
 export default class MetadataOnlyUploader extends Uploader {
