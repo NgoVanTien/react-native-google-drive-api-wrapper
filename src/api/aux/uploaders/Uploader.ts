@@ -1,4 +1,4 @@
-import Fetcher, { FetchResultType } from '../Fetcher'
+import Fetcher, { type FetchResultType } from '../Fetcher'
 import Uris from '../Uris'
 import FilesApi from '../../files/FilesApi'
 
