@@ -1,7 +1,7 @@
 import { ArrayStringifier, StaticUtils } from 'simple-common-utils'
 import utf8 from 'utf8'
 import Uploader from './Uploader'
-import Fetcher, { BodyType, FetchResultType } from '../Fetcher'
+import Fetcher, { type BodyType, type FetchResultType } from '../Fetcher'
 import FilesApi from '../../files/FilesApi'
 import MimeTypes from '../../../MimeTypes'
 
